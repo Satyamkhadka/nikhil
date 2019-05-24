@@ -1,0 +1,143 @@
+html, body {
+  height: 100%;
+  height: 100vh; }
+
+body {
+  min-height: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  background-color: #bf9d00;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333; }
+
+a {
+  text-decoration: none;
+  color: #f2c700; }
+  a:hover {
+    color: #ffd40d; }
+
+#mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  min-height: 100%;
+  max-width: 750px;
+  margin: 0px auto; }
+  #mainContainer #mainContentBlock {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 20px; }
+    #mainContainer #mainContentBlock #mainContent {
+      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      margin: 0px auto;
+      overflow: hidden;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-line-pack: center;
+          align-content: center; }
+      #mainContainer #mainContentBlock #mainContent #avatarImageBlock {
+        width: 350px;
+        height: 350px;
+        margin: 10px auto;
+        border-radius: 50%;
+        background-position: center center;
+        background-size: cover;
+        box-shadow: 5px 5px 35px 5px #ee1eee;
+        opacity: 0.95; }
+      #mainContainer #mainContentBlock #mainContent #introBox {
+        text-align: center;
+        background-color: #f8f8f8;
+        background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+        margin: 0px;
+        padding: 10px 50px; }
+        #mainContainer #mainContentBlock #mainContent #introBox #linkBox {
+          margin: 10px auto;
+          padding: 0px;
+          list-style: none;
+          max-width: 400px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #mainContainer #mainContentBlock #mainContent #introBox #linkBox li {
+            margin: 5px;
+            border-radius: 15px;
+            display: inline; }
+            #mainContainer #mainContentBlock #mainContent #introBox #linkBox li .link-icon {
+              background-color: #f2c700;
+              padding: 6px 4px;
+              box-shadow: 0px 1px 3px #cccccc;
+              border-radius: 50%; }
+              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li .link-icon:hover {
+                background-color: #ffd40d; }
+            #mainContainer #mainContentBlock #mainContent #introBox #linkBox li a .description {
+              display: none;
+              font-size: 0.8em; }
+            #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured {
+              border: 1px solid #f2c700;
+              padding-right: 15px;
+              box-shadow: 0px 1px 3px #cccccc; }
+              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured .link-icon {
+                box-shadow: none; }
+              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured:hover {
+                border-color: #ffd40d;
+                background-color: #ffd40d; }
+                #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured:hover .link-icon {
+                  background-color: #ffd40d; }
+              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured a .description {
+                color: #333;
+                padding-left: 5px;
+                padding-right: 2px; }
+              #mainContainer #mainContentBlock #mainContent #introBox #linkBox li.featured .description {
+                display: inline; }
+      #mainContainer #mainContentBlock #mainContent #fullBioBox {
+        padding: 20px 40px; }
+
+div.footer {
+  text-align: center;
+  font-size: 0.8em;
+  text-shadow: 0px 1px 3px #cccccc; }
